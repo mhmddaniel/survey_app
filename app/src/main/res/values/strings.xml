@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name">Survey App</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tambahSurvey">Tambah Survey</string>
+    <string name="menu_pendingSurvey">Pending Survey (Offline)</string>
+    <string name="menu_Keluar">Keluar</string>
+
+    <string name="tombol_tambahSurvey">Tambah Survey</string>
+
+    <string-array name="kependudukan_jenis_kelamin_tambahSurvey">
+        <item>L</item>
+        <item>P</item>
+    </string-array>
+
+    <string-array name="kependudukan_pekerjaan_tambahSurvey">
+        <item>PNS</item>
+        <item>BUMN/D</item>
+        <item>TNI/POLRI</item>
+        <item>KARYAWAN</item>
+        <item>WIRAUSAHA</item>
+        <item>PETANI</item>
+        <item>NELAYAN</item>
+        <item>OJEK/SOPIR</item>
+        <item>PRAMUWISMA</item>
+        <item>LANSIA/IRT</item>
+        <item>TUKANG/MONTIR</item>
+        <item>HONORER</item>
+        <item>PENSIUNAN</item>
+        <item>TIDAK BEKERJA</item>
+        <item>LAINNYA</item>
+    </string-array>
+
+    <string-array name="kependudukan_penghasilan_tambahSurvey">
+        <item>&gt; 4.2 JUTA</item>
+        <item>3.7 JUTA - 4.2 JUTA</item>
+        <item>3.2 JUTA - 3.6 JUTA</item>
+        <item>2.7 JUTA - 3.1 JUTA</item>
+        <item>2.2 JUTA - 2.6 JUTA</item>
+        <item>1.9 JUTA - 2.1 JUTA</item>
+        <item>1.3 JUTA - 1.8 JUTA</item>
+        <item>0 - 1.2 JUTA</item>
+    </string-array>
+
+    <string-array name="asset_status_tanah_tambahSurvey">
+        <item>MILIK SENDIRI</item>
+        <item>TANAH NEGARA</item>
+        <item>BUKAN MILIK SENDIRI</item>
+    </string-array>
+
+    <string-array name="asset_status_rumah_tambahSurvey">
+        <item>MILIK SENDIRI</item>
+        <item>KONTRAK/SEWA</item>
+        <item>BUKAN MILIK SENDIRI</item>
+    </string-array>
+
+    <string-array name="tanah_ditempat_lain_tambahSurvey">
+        <item>ADA</item>
+        <item>TIDAK ADA</item>
+    </string-array>
+
+    <string-array name="rumah_ditempat_lain_tambahSurvey">
+        <item>ADA</item>
+        <item>TIDAK ADA</item>
+    </string-array>
+
+    <string-array name="bantuan_perumahan_tambahSurvey">
+        <item>YA &lt; 5 TAHUN YANG LALU</item>
+        <item>YA &gt; 5 TAHUN YANG LALU</item>
+        <item>BELUM PERNAH</item>
+    </string-array>
+
+    <string-array name="info_rumah_kondisi_atap_tambahSurvey">
+        <item>BAIK</item>
+        <item>RUSAK RINGAN</item>
+        <item>RUSAK SEDANG/SEBAGIAN</item>
+        <item>RUSAK BERAT/SELURUHNYA</item>
+    </string-array>
+
+    <string-array name="info_rumah_kondisi_lantai_tambahSurvey">
+        <item>BAIK</item>
+        <item>RUSAK RINGAN</item>
+        <item>RUSAK SEDANG/SEBAGIAN</item>
+        <item>RUSAK BERAT/SELURUHNYA</item>
+    </string-array>
+
+    <string-array name="info_rumah_kondisi_dinding_tambahSurvey">
+        <item>BAIK</item>
+        <item>RUSAK RINGAN</item>
+        <item>RUSAK SEDANG/SEBAGIAN</item>
+        <item>RUSAK BERAT/SELURUHNYA</item>
+    </string-array>
+
+    <string-array name="info_rumah_kondisi_pencahayaan_tambahSurvey">
+        <item>ADA</item>
+        <item>TIDAK ADA</item>
+    </string-array>
+
+    <string-array name="info_rumah_kondisi_kamarmandi_tambahSurvey">
+        <item>SENDIRI</item>
+        <item>BERSAMA/MCK KOMUNAL</item>
+        <item>TIDAK ADA</item>
+    </string-array>
+
+    <string-array name="info_rumah_sumberair_tambahSurvey">
+        <item>PDAM</item>
+        <item>AIR KEMASAN/ISI ULANG</item>
+        <item>SUMUR</item>
+        <item>MATA AIR</item>
+        <item>AIR HUJAN</item>
+        <item>LAINNYA</item>
+    </string-array>
+
+    <string-array name="info_rumah_jarak_sumberair_tambahSurvey">
+        <item>&gt; 10 M</item>
+        <item>&lt; 10 M</item>
+    </string-array>
+
+    <string-array name="info_rumah_penerangan_tambahSurvey">
+        <item>LISTRIK PLN DENGAN METERAN</item>
+        <item>LISTRIK PLN TANPA METERAN</item>
+        <item>LISTRIK NON PLN</item>
+        <item>BUKAN LISTRIK</item>
+    </string-array>
+
+    <string-array name="kependudukan_pendidikan_tambahSurvey">
+        <item>TIDAK PUNYA IJAZAH</item>
+        <item>SD/SEDERAJAT</item>
+        <item>SMP/SEDERAJAT</item>
+        <item>SMA/SEDERAJAT</item>
+        <item>D4/S1</item>
+        <item>D1/D2/D3</item>
+    </string-array>
+
+    <string-array name="lokasi_lokasi_kawasan_rumah_tambahSurvey">
+        <item>KAWASAN RAWAN AIR</item>
+        <item>KAWASAN KUMUH</item>
+        <item>KEK</item>
+        <item>KSPN</item>
+        <item>DAERAH TERTINGGAL/TERPENCIL</item>
+        <item>KAWASAN PERBATASAN</item>
+        <item>KAWASAN PESISIR/NELAYAN</item>
+        <item>PULAU - PULAU KECIL/TERLUAR</item>
+        <item>KAWASAN TRANSMIGRASI</item>
+    </string-array>
+</resources>

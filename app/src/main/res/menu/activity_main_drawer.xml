@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_tambahsurvey"
+            android:icon="@drawable/ic_baseline_add_box_24"
+            android:title="@string/menu_tambahSurvey" />
+        <item
+            android:id="@+id/nav_pendingsurvey"
+            android:icon="@drawable/ic_baseline_wifi_off_24"
+            android:title="@string/menu_pendingSurvey" />
+        <item
+            android:id="@+id/nav_keluar"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="@string/menu_Keluar" />
+    </group>
+</menu>

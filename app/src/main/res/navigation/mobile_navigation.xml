@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_tambahsurvey">
+
+    <fragment
+        android:id="@+id/nav_tambahsurvey"
+        android:name="com.example.surveyapp.ui.tambahSurvey.tambahSurveyFragment"
+        android:label="@string/menu_tambahSurvey"
+        tools:layout="@layout/tambah_survey_fragment" />
+
+    <fragment
+        android:id="@+id/nav_pendingsurvey"
+        android:name="com.example.surveyapp.ui.pendingSurvey.PendingSurveyFragment"
+        android:label="@string/menu_pendingSurvey"
+        tools:layout="@layout/pending_survey_fragment" />
+</navigation>
